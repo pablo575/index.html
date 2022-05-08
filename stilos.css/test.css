@@ -1,0 +1,82 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}  
+  
+  body {
+   background-color: #F0E68C;
+   padding: 0%;
+   margin: 0%;
+   width: 100%;
+   min-width: 600px;
+  
+ }
+ header  {
+   width: 100%;
+   min-width: 60%;
+  color: #fff;
+font-size: 25px;
+font-family: sans-serif;
+background-color: rgb(112, 109, 105);
+display: flex;
+justify-content: space-between;
+align-items: center;
+animation-name: mai123;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+overflow: hidden;
+
+}
+
+
+section {
+  height: 600px;
+  width: 100%;
+  background-image: url(indu.jpg);
+  min-width: 60%;
+  margin: 0%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  
+}
+ul > li  {
+  margin: 6px;
+}
+
+
+.tittle {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(124, 118, 30);
+  font-size: 60px;
+ margin: 0%;
+}
+div > p {
+  font-size: 32px;
+  color: #000;
+  margin: 0%;
+}
+footer {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(12, 8, 8);
+  height: 100px;
+  text-align: center;
+  color: #fff;
+  margin: 0%;
+}
+@keyframes mai123 {
+  0% {background-color: #fff;}
+  25%{background-color: rgb(148, 186, 219);}
+  50%{background-color: rgb(98, 121, 141);}
+  75%{background-color: rgb(78, 103, 150);}
+  100%{background-color: aqua;}
+}
+
+/* font-size: para cambiar el tamaño de la letra */
+/* font-family: para la tipografia letra  */
+/* line height: es la mitad de los letras */
+/*  */
