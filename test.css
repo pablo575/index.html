@@ -3,38 +3,32 @@
   padding: 0%;
   box-sizing: border-box;
 }  
-  
-  body {
-   background-color: #F0E68C;
-   padding: 0%;
-   margin: 0%;
-   width: 100%;
-   min-width: 600px;
-  
- }
- header  {
-   width: 100%;
-   min-width: 60%;
+ nav  {
+   height: 100px;
   color: #fff;
 font-size: 25px;
 font-family: sans-serif;
-background-color: rgb(112, 109, 105);
+background-color: rgb(72, 148, 235);
 display: flex;
 justify-content: space-between;
 align-items: center;
-animation-name: mai123;
+/* animation-name: mai123;
 animation-duration: 6s;
 animation-iteration-count: infinite;
-overflow: hidden;
-
+overflow: hidden; */
 }
-
-
-section {
+nav ul {
+  border-radius: 50%;
+}
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+}
+.contain {
   height: 600px;
-  width: 100%;
-  background-image: url(indu.jpg);
-  min-width: 60%;
+  width: auto;
+  background-image: url(../index.html/imaguenes/indu.jpg);
+  background-repeat: no-repeat;
   margin: 0%;
 }
 ul {
@@ -68,13 +62,13 @@ footer {
   color: #fff;
   margin: 0%;
 }
-@keyframes mai123 {
+/* @keyframes mai123 {
   0% {background-color: #fff;}
   25%{background-color: rgb(148, 186, 219);}
   50%{background-color: rgb(98, 121, 141);}
   75%{background-color: rgb(78, 103, 150);}
   100%{background-color: aqua;}
-}
+} */
 
 /* font-size: para cambiar el tamaño de la letra */
 /* font-family: para la tipografia letra  */
