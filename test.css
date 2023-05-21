@@ -3,7 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }  
- nav  {
+ .navi  {
    height: 100px;
   color: #fff;
 font-size: 25px;
@@ -17,41 +17,46 @@ animation-duration: 6s;
 animation-iteration-count: infinite;
 overflow: hidden; */
 }
-nav ul {
+.navi ul {
   border-radius: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-nav ul a {
+.navi ul a {
   color: #fff;
   text-decoration: none;
 }
-.contain {
-  height: 600px;
+.contain_cont {
+  height: 400px;
   width: auto;
+  margin: auto;
   background-image: url(../index.html/imaguenes/indu.jpg);
   background-repeat: no-repeat;
-  margin: 0%;
 }
-ul {
-  list-style-type: none;
+.contain {
   display: flex;
-  
+  flex-direction: column;
+  border-radius: 60px;
+  height: 200px;
+  width: 200px;
+  color: red;
 }
-ul > li  {
-  margin: 6px;
+.hola {
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
+.contain ul {
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.contain ul li {
+  text-decoration: none;
 
 
-.tittle {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(124, 118, 30);
-  font-size: 60px;
- margin: 0%;
-}
-div > p {
-  font-size: 32px;
-  color: #000;
-  margin: 0%;
 }
 footer {
   font-size: 32px;
