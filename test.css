@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+<<<<<<< HEAD
 }
   body {
    background-color: #F0E68C;
@@ -13,16 +14,22 @@
  header  {
    width: 100%;
    min-width: 60%;
+=======
+}  
+ .navi  {
+   height: 100px;
+>>>>>>> 2befa126ded1b0828220c5ff84e22ea43872cb48
   color: #fff;
 font-size: 25px;
 font-family: sans-serif;
-background-color: rgb(112, 109, 105);
+background-color: rgb(72, 148, 235);
 display: flex;
 justify-content: space-between;
 align-items: center;
-animation-name: mai123;
+/* animation-name: mai123;
 animation-duration: 6s;
 animation-iteration-count: infinite;
+<<<<<<< HEAD
 overflow: hidden;
 }
 main {
@@ -35,10 +42,41 @@ main {
 ul {
   list-style-type: none;
   display: flex; 
+=======
+overflow: hidden; */
 }
-ul > li  {
-  margin: 6px;
+.navi ul {
+  border-radius: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+.navi ul a {
+  color: #fff;
+  text-decoration: none;
+}
+.contain_cont {
+  height: 400px;
+  width: auto;
+  margin: auto;
+  background-image: url(../index.html/imaguenes/indu.jpg);
+  background-repeat: no-repeat;
+}
+.contain {
+  display: flex;
+  flex-direction: column;
+  border-radius: 60px;
+  height: 200px;
+  width: 200px;
+  color: red;
+>>>>>>> 2befa126ded1b0828220c5ff84e22ea43872cb48
+}
+.hola {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+<<<<<<< HEAD
 .tittle {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -50,6 +88,18 @@ div > p {
   font-size: 32px;
   color: #000;
   margin: 0%;
+=======
+.contain ul {
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.contain ul li {
+  text-decoration: none;
+
+
+>>>>>>> 2befa126ded1b0828220c5ff84e22ea43872cb48
 }
 footer {
   font-size: 32px;
@@ -60,13 +110,13 @@ footer {
   color: #fff;
   margin: 0%;
 }
-@keyframes mai123 {
+/* @keyframes mai123 {
   0% {background-color: #fff;}
   25%{background-color: rgb(148, 186, 219);}
   50%{background-color: rgb(98, 121, 141);}
   75%{background-color: rgb(78, 103, 150);}
   100%{background-color: aqua;}
-}
+} */
 
 /* font-size: para cambiar el tamaño de la letra */
 /* font-family: para la tipografia letra  */
