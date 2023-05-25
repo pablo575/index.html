@@ -1,11 +1,11 @@
-function login () {
-    let user, password;
-    user = document.getElementById("usuario"). Value;
-    password = document.getElementById("contraseña"). Value;
+function login(){
+    let user, password
+    user = document.getElementById("usuario"). value;
+    password = document.getElementById("contraseña"). value;
 
-    if (user == "prueda" && password == "1234"){
-        alert =("inisiaste secio.");
+    if (user == "michael" && password == "1234"){
+        window.location = "http://127.0.0.1:5500/index.html/index.html";
     } else {
-            alert =("no tienes acceso.");
+            alert("no tienes acceso.");
         }
 }
