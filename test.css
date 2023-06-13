@@ -2,13 +2,34 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-}  
- .navi  {
-   height: 100px;
+}
+.navi {
+  display: flex;
+  justify-content: space-between;
+   background-color: #216a77;
+   font-size: 30px;
+   width: 100%;
+   align-items: center;
+   color: #fff;
+ }
+ .navi ul {
+  display: flex;
+  font-size: 30px; 
+  list-style: none;
+  text-align: center;
+ }
+ .navi ul li a {
+  text-decoration: none; 
+  row-gap: 10px;
   color: #fff;
-font-size: 25px;
+  padding: 15px;
+ }
+ .contain_cont  {
+   width: 100%;
+  color: #fff;
+font-size: 20px;
 font-family: sans-serif;
-background-color: rgb(72, 148, 235);
+background-color: rgb(83, 94, 107);
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -31,34 +52,58 @@ overflow: hidden; */
   height: 400px;
   width: auto;
   margin: auto;
-  background-image: url(../index.html/imaguenes/);
+  background-image: url(../index.html/imaguenes/indu.jpg);
   background-repeat: no-repeat;
 }
 .contain {
   display: flex;
   flex-direction: column;
-  border-radius: 60px;
-  height: 200px;
-  width: 200px;
-  color: red;
-}
-.hola {
-  display: block;
+  justify-content: center;
+  background-image: url(../index.html/imaguenes/stock-g030abf7d8_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+ }
+ .hola {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-}
-.contain ul {
-  list-style-type: none;
+  color: #fff;
+  gap: 20px;
+ }
+  h1{
+  font-size: 50px;
+ }
+
+ .contain ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
-}
-.contain ul li {
+  gap: 30px;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+
+ }
+ .contain ul li {
+  list-style: none;
   text-decoration: none;
 
 
-}
-footer {
+ }
+
+ .link button{
+  display: inline-flex;
+  display: flex;
+  
+ 
+ 
+
+ }
+
+ footer{
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(12, 8, 8);
@@ -66,16 +111,5 @@ footer {
   text-align: center;
   color: #fff;
   margin: 0%;
-}
-/* @keyframes mai123 {
-  0% {background-color: #fff;}
-  25%{background-color: rgb(148, 186, 219);}
-  50%{background-color: rgb(98, 121, 141);}
-  75%{background-color: rgb(78, 103, 150);}
-  100%{background-color: aqua;}
-} */
-
-/* font-size: para cambiar el tamaño de la letra */
-/* font-family: para la tipografia letra  */
-/* line height: es la mitad de los letras */
-/*  */
+  margin: 0%;
+ }
