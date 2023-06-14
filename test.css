@@ -24,92 +24,56 @@
   color: #fff;
   padding: 15px;
  }
- .contain_cont  {
-   width: 100%;
-  color: #fff;
-font-size: 20px;
-font-family: sans-serif;
-background-color: rgb(83, 94, 107);
-display: flex;
-justify-content: space-between;
-align-items: center;
-/* animation-name: mai123;
-animation-duration: 6s;
-animation-iteration-count: infinite;
-overflow: hidden; */
-}
-.navi ul {
-  border-radius: 50%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.navi ul a {
+ .navi ul a {
   color: #fff;
   text-decoration: none;
 }
-.contain_cont {
-  height: 400px;
-  width: auto;
-  margin: auto;
-  background-image: url(../index.html/imaguenes/indu.jpg);
-  background-repeat: no-repeat;
+ .contain_cont  {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-image: url(../index.html/imaguenes/stock-g030abf7d8_1280.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+width: auto;
+
 }
+
 .contain {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(../index.html/imaguenes/stock-g030abf7d8_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-
  }
  .hola {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  gap: 20px;
+  color: #440a0a;
  }
   h1{
   font-size: 50px;
  }
-
  .contain ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  color: #fff;
-  font-size: 25px;
-  cursor: pointer;
-
+  gap: 20px;
+  height: 400px;
  }
  .contain ul li {
   list-style: none;
   text-decoration: none;
-
-
  }
-
- .link button{
-  display: inline-flex;
-  display: flex;
-  
- 
- 
-
+ .link {
+  cursor: pointer;
  }
-
- footer{
+ footer {
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(12, 8, 8);
   height: 100px;
   text-align: center;
-  color: #fff;
-  margin: 0%;
-  margin: 0%;
+  color: #fff
  }

@@ -1,46 +1,51 @@
  function pacientes (){
-    let variable = [
-        num = document.getElementById("agregar"),
-        num1 = document.getElementById("actualizar"),
-        num2 = document.getElementById("eliminar"),
-        num3 = document.getElementById("estadistica"),
-        num4 = document.getElementById("salir"),
-    ];
+       const num = document.getElementById("agregar");  
+      let num1 = document.getElementById("actualizar");
+       let num2 = document.getElementById("eliminar");
+       let num3 = document.getElementById("estadistica");
+       let num4 = document.getElementById("salir");
 }
  
 switch (pacientes()){
     case "num":
-      let dato =prompt("Agregar Datos");
+      let datoAgregar = prompt("Agregar Datos");
 
-         if (num == Agregar){
+         if (datoAgregar == "agregar"){
             dato = "";
          }
          else {
              alert("gracias por venir");
          }
+         break;
     case "num1":
-        if (num1 == "Actualizar"){
-            prompt("Actualiza Datos");
+       let datoActualizar = prompt("Actualiza Datos");
+        if (datoActualizar == "Actualizar"){
+           
          }else{
             alert("gracias por venir");
          }
+         break;
     case "num2":
-         if (num2 == "Eliminar"){
-            prompt("Eliminar Datos");
+       let datoEliminar = prompt("Eliminar Datos");
+         if (datoEliminar == "Eliminar"){
+          
         }else{
             alert("gracias por venir");
         }
+        break;
     case "num3":
-         if (num3 == "Estadistica"){
-         prompt("Estadistica Datos");
+       let datoEstadistica = prompt("Estadistica Datos");
+         if (datoEstadistica == "Estadistica"){
         }else{
         alert("gracias por venir");
            }
            default:
     case "num4":
-        if (num4 == "Salir"){
-        prompt("Salir Datos");
+        let datoUsuario = prompt("Salir Datos");
+        if (datoUsuario === "Salir"){
+            alert("gracias");
         }else{
-             alert("gracias");
+            alert("estas mal chico")
         }
+        break;
   }
