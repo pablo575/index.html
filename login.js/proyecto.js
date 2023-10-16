@@ -1,9 +1,9 @@
  function pacientes (){
-       const num = document.getElementById("agregar");  
-      let num1 = document.getElementById("actualizar");
-       let num2 = document.getElementById("eliminar");
-       let num3 = document.getElementById("estadistica");
-       let num4 = document.getElementById("salir");
+        let num = document.getElementById("agregar");  
+        let num1 = document.getElementById("actualizar");
+        let num2 = document.getElementById("eliminar");
+        let num3 = document.getElementById("estadistica");
+        let num4 = document.getElementById("salir");
 }
  
 switch (pacientes()){
@@ -11,7 +11,7 @@ switch (pacientes()){
       let datoAgregar = prompt("Agregar Datos");
 
          if (datoAgregar == "agregar"){
-            dato = "";
+            let agg = prompt(" ");
          }
          else {
              alert("gracias por venir");
@@ -39,7 +39,7 @@ switch (pacientes()){
         }else{
         alert("gracias por venir");
            }
-           default:
+        break;
     case "num4":
         let datoUsuario = prompt("Salir Datos");
         if (datoUsuario === "Salir"){
@@ -49,3 +49,5 @@ switch (pacientes()){
         }
         break;
   }
+
+  
